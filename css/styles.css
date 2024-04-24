@@ -344,3 +344,26 @@ h1 {
     text-align: center;
   }
 }
+
+@container drawings (max-width: 640px) {
+  .drawings__draw-img {
+    width: 90%;
+    height: 380px;
+  }
+
+  .drawings__draw {
+    height: 130px;
+  }
+
+  .drawings__draw:hover {
+    height: 180px;
+  }
+
+  .draw--full {
+    height: 390px;
+  }
+
+  .draw--full:hover {
+    height: 420px;
+  }
+}

@@ -347,7 +347,7 @@ h1 {
 
 @container drawings (max-width: 640px) {
   .drawings__draw-img {
-    width: 90%;
+    width: 360px;
     height: 380px;
   }
 
@@ -365,5 +365,10 @@ h1 {
 
   .draw--full:hover {
     height: 420px;
+  }
+
+  .draw-info__text {
+    width: 90%;
+    margin: auto;
   }
 }
